@@ -1,2 +1,15 @@
 .header {
+  height: 5rem;
+  background-color: rgb(247, 237, 244);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+  position: absolute;
+  width: 100vw;
+  &__title {
+    font-family: "Archivo", sans-serif;
+    font-weight: bold;
+  }
 }
